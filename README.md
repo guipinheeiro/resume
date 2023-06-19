@@ -27,40 +27,28 @@ Interactive Multimedia Resume is a ReactJS-based web application that transforms
 ## Installation and Setup
 
 1. Clone the repository:
-
-git clone https://github.com/guipinheeiro/resume.git
+`git clone https://github.com/guipinheeiro/resume.git`
 
 2. Navigate to the project directory:
-cd interactive-multimedia-resume
+`cd interactive-multimedia-resume`
 
-markdown
-Copy code
 3. Install dependencies:
-npm install
+`npm install`
 
-markdown
-Copy code
 4. Start the development server:
-npm start
-
-markdown
-Copy code
+`npm start`
 
 ## Technologies Used
 
 - ReactJS
 - React Router
-- Axios
-- React Player
 - CSS / Styled Components
 
 ## Testing
 
 To run the tests, use the command: 
-npm test
 
-csharp
-Copy code
+`npm test`
 
 ## Contribution
 
@@ -68,7 +56,7 @@ Contributions are always welcome. Please make a pull request.
 
 ## Deployment
 
-This application is deployed on [Deployment-Service-Link]. Feel free to check it out.
+This application is deployed on Vercel. Feel free to check it out.
 
 ## License
 
@@ -76,5 +64,5 @@ MIT
 
 ## Contact
 
-For any queries, feel free to reach out to me at [your-email].
+For any queries, feel free to reach out to me.
 
