@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Interactive Multimedia Resume App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Interactive Multimedia Resume is a ReactJS-based web application that transforms a traditional resume into an immersive, multimedia experience. This application aims to make the recruitment process more engaging and accessible.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Personal Information:** Displays the candidate's name, photograph, contact information, and professional profile links. It also includes an audio play button for an audio reading of this information and a sidebar video of the candidate introducing themselves.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Professional Summary:** Presents an overview of the candidate's career trajectory, major achievements, and specializations. The component includes an audio play button for an audio reading of this text, and a sidebar video of the candidate giving a more personal account of their career journey.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Experience:** Lists each role with job title, company, duration, and a concise summary of responsibilities and key achievements. It also includes an audio play button for an audio reading of this information, and a sidebar video where the candidate dives deeper into each role, discussing significant projects, challenges overcome, and their impact.
 
-### `npm test`
+- **Skills:** Exhibits the candidate's key skills, possibly with a visual indicator of proficiency level. The component includes an audio play button for an audio reading of this list, and a sidebar video where the candidate narrates examples of how they've applied these skills in their work.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Education:** Details educational credentials with degree name, institution, and years of attendance. It also includes an audio play button for an audio reading of this information, and a sidebar video where the candidate reflects on their academic journey, important coursework, projects, or theses.
 
-### `npm run build`
+- **Recommendations:** Displays short testimonials from previous colleagues, managers, or professors. The component includes an audio play button for an audio reading of the testimonials, and a sidebar video where the candidate shares experiences working with these individuals.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Additional Considerations
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Clear navigation between sections, enabling users to easily jump to the part of the resume they're most interested in.
+- Options for users to adjust the playback speed of the audio and video, enhancing the user experience.
+- Transcriptions for all videos and audio clips to enhance accessibility and ensure information is fully available even if the user can't or chooses not to engage with the audio and video components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation and Setup
 
-### `npm run eject`
+1. Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone https://github.com/guipinheeiro/resume.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
+cd interactive-multimedia-resume
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+markdown
+Copy code
+3. Install dependencies:
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+markdown
+Copy code
+4. Start the development server:
+npm start
 
-## Learn More
+markdown
+Copy code
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ReactJS
+- React Router
+- Axios
+- React Player
+- CSS / Styled Components
 
-### Code Splitting
+## Testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To run the tests, use the command: 
+npm test
 
-### Analyzing the Bundle Size
+csharp
+Copy code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contribution
 
-### Making a Progressive Web App
+Contributions are always welcome. Please make a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Deployment
 
-### Advanced Configuration
+This application is deployed on [Deployment-Service-Link]. Feel free to check it out.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+MIT
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contact
 
-### `npm run build` fails to minify
+For any queries, feel free to reach out to me at [your-email].
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
