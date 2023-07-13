@@ -40,4 +40,4 @@ This project is currently in development.
 
 ## Contact
 
-If you want to contact me, you can reach me at [Your Contact Information].
+If you want to contact me, you can reach me at guipinheeiro@gmail.com.
